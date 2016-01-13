@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		008CD9AC1C46041C00CD1DC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CD9AB1C46041C00CD1DC5 /* AppDelegate.swift */; };
-		008CD9AE1C46041C00CD1DC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CD9AD1C46041C00CD1DC5 /* ViewController.swift */; };
-		008CD9B11C46041C00CD1DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008CD9AF1C46041C00CD1DC5 /* Main.storyboard */; };
-		008CD9B31C46041C00CD1DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008CD9B21C46041C00CD1DC5 /* Assets.xcassets */; };
-		008CD9B61C46041C00CD1DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008CD9B41C46041C00CD1DC5 /* LaunchScreen.storyboard */; };
+		00CEDC3E1C4608A60029C7E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CEDC3D1C4608A60029C7E4 /* AppDelegate.swift */; };
+		00CEDC471C4608A60029C7E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00CEDC461C4608A60029C7E4 /* Assets.xcassets */; };
+		00CEDC4A1C4608A60029C7E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CEDC481C4608A60029C7E4 /* LaunchScreen.storyboard */; };
+		00CEDC521C4608F20029C7E4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CEDC511C4608F20029C7E4 /* TableViewController.swift */; };
+		00CEDC561C460D500029C7E4 /* OpenAPP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CEDC551C460D500029C7E4 /* OpenAPP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		008CD9A81C46041C00CD1DC5 /* OpenIBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenIBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		008CD9AB1C46041C00CD1DC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		008CD9AD1C46041C00CD1DC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		008CD9B01C46041C00CD1DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		008CD9B21C46041C00CD1DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		008CD9B51C46041C00CD1DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		008CD9B71C46041C00CD1DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CEDC3A1C4608A60029C7E4 /* OpenAppleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAppleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CEDC3D1C4608A60029C7E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00CEDC461C4608A60029C7E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00CEDC491C4608A60029C7E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00CEDC4B1C4608A60029C7E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CEDC511C4608F20029C7E4 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		00CEDC551C460D500029C7E4 /* OpenAPP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenAPP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		008CD9A51C46041C00CD1DC5 /* Frameworks */ = {
+		00CEDC371C4608A60029C7E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		008CD99F1C46041C00CD1DC5 = {
+		00CEDC311C4608A60029C7E4 = {
 			isa = PBXGroup;
 			children = (
-				008CD9AA1C46041C00CD1DC5 /* OpenIBooks */,
-				008CD9A91C46041C00CD1DC5 /* Products */,
+				00CEDC3C1C4608A60029C7E4 /* OpenAppleApp */,
+				00CEDC3B1C4608A60029C7E4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		008CD9A91C46041C00CD1DC5 /* Products */ = {
+		00CEDC3B1C4608A60029C7E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				008CD9A81C46041C00CD1DC5 /* OpenIBooks.app */,
+				00CEDC3A1C4608A60029C7E4 /* OpenAppleApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		008CD9AA1C46041C00CD1DC5 /* OpenIBooks */ = {
+		00CEDC3C1C4608A60029C7E4 /* OpenAppleApp */ = {
 			isa = PBXGroup;
 			children = (
-				008CD9AB1C46041C00CD1DC5 /* AppDelegate.swift */,
-				008CD9AD1C46041C00CD1DC5 /* ViewController.swift */,
-				008CD9AF1C46041C00CD1DC5 /* Main.storyboard */,
-				008CD9B21C46041C00CD1DC5 /* Assets.xcassets */,
-				008CD9B41C46041C00CD1DC5 /* LaunchScreen.storyboard */,
-				008CD9B71C46041C00CD1DC5 /* Info.plist */,
+				00CEDC3D1C4608A60029C7E4 /* AppDelegate.swift */,
+				00CEDC511C4608F20029C7E4 /* TableViewController.swift */,
+				00CEDC551C460D500029C7E4 /* OpenAPP.swift */,
+				00CEDC461C4608A60029C7E4 /* Assets.xcassets */,
+				00CEDC481C4608A60029C7E4 /* LaunchScreen.storyboard */,
+				00CEDC4B1C4608A60029C7E4 /* Info.plist */,
 			);
-			path = OpenIBooks;
+			path = OpenAppleApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		008CD9A71C46041C00CD1DC5 /* OpenIBooks */ = {
+		00CEDC391C4608A60029C7E4 /* OpenAppleApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 008CD9BA1C46041C00CD1DC5 /* Build configuration list for PBXNativeTarget "OpenIBooks" */;
+			buildConfigurationList = 00CEDC4E1C4608A60029C7E4 /* Build configuration list for PBXNativeTarget "OpenAppleApp" */;
 			buildPhases = (
-				008CD9A41C46041C00CD1DC5 /* Sources */,
-				008CD9A51C46041C00CD1DC5 /* Frameworks */,
-				008CD9A61C46041C00CD1DC5 /* Resources */,
+				00CEDC361C4608A60029C7E4 /* Sources */,
+				00CEDC371C4608A60029C7E4 /* Frameworks */,
+				00CEDC381C4608A60029C7E4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OpenIBooks;
-			productName = OpenIBooks;
-			productReference = 008CD9A81C46041C00CD1DC5 /* OpenIBooks.app */;
+			name = OpenAppleApp;
+			productName = OpenAppleApp;
+			productReference = 00CEDC3A1C4608A60029C7E4 /* OpenAppleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		008CD9A01C46041C00CD1DC5 /* Project object */ = {
+		00CEDC321C4608A60029C7E4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Robin;
 				TargetAttributes = {
-					008CD9A71C46041C00CD1DC5 = {
+					00CEDC391C4608A60029C7E4 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
-			buildConfigurationList = 008CD9A31C46041C00CD1DC5 /* Build configuration list for PBXProject "OpenIBooks" */;
+			buildConfigurationList = 00CEDC351C4608A60029C7E4 /* Build configuration list for PBXProject "OpenAppleApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 008CD99F1C46041C00CD1DC5;
-			productRefGroup = 008CD9A91C46041C00CD1DC5 /* Products */;
+			mainGroup = 00CEDC311C4608A60029C7E4;
+			productRefGroup = 00CEDC3B1C4608A60029C7E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				008CD9A71C46041C00CD1DC5 /* OpenIBooks */,
+				00CEDC391C4608A60029C7E4 /* OpenAppleApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		008CD9A61C46041C00CD1DC5 /* Resources */ = {
+		00CEDC381C4608A60029C7E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				008CD9B61C46041C00CD1DC5 /* LaunchScreen.storyboard in Resources */,
-				008CD9B31C46041C00CD1DC5 /* Assets.xcassets in Resources */,
-				008CD9B11C46041C00CD1DC5 /* Main.storyboard in Resources */,
+				00CEDC4A1C4608A60029C7E4 /* LaunchScreen.storyboard in Resources */,
+				00CEDC471C4608A60029C7E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		008CD9A41C46041C00CD1DC5 /* Sources */ = {
+		00CEDC361C4608A60029C7E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				008CD9AE1C46041C00CD1DC5 /* ViewController.swift in Sources */,
-				008CD9AC1C46041C00CD1DC5 /* AppDelegate.swift in Sources */,
+				00CEDC3E1C4608A60029C7E4 /* AppDelegate.swift in Sources */,
+				00CEDC561C460D500029C7E4 /* OpenAPP.swift in Sources */,
+				00CEDC521C4608F20029C7E4 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		008CD9AF1C46041C00CD1DC5 /* Main.storyboard */ = {
+		00CEDC481C4608A60029C7E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				008CD9B01C46041C00CD1DC5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		008CD9B41C46041C00CD1DC5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				008CD9B51C46041C00CD1DC5 /* Base */,
+				00CEDC491C4608A60029C7E4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +154,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		008CD9B81C46041C00CD1DC5 /* Debug */ = {
+		00CEDC4C1C4608A60029C7E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +198,7 @@
 			};
 			name = Debug;
 		};
-		008CD9B91C46041C00CD1DC5 /* Release */ = {
+		00CEDC4D1C4608A60029C7E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,24 +235,24 @@
 			};
 			name = Release;
 		};
-		008CD9BB1C46041C00CD1DC5 /* Debug */ = {
+		00CEDC4F1C4608A60029C7E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = OpenIBooks/Info.plist;
+				INFOPLIST_FILE = OpenAppleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mrocker.OpenIBooks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrocker.OpenAppleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		008CD9BC1C46041C00CD1DC5 /* Release */ = {
+		00CEDC501C4608A60029C7E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = OpenIBooks/Info.plist;
+				INFOPLIST_FILE = OpenAppleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mrocker.OpenIBooks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrocker.OpenAppleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -268,24 +260,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		008CD9A31C46041C00CD1DC5 /* Build configuration list for PBXProject "OpenIBooks" */ = {
+		00CEDC351C4608A60029C7E4 /* Build configuration list for PBXProject "OpenAppleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				008CD9B81C46041C00CD1DC5 /* Debug */,
-				008CD9B91C46041C00CD1DC5 /* Release */,
+				00CEDC4C1C4608A60029C7E4 /* Debug */,
+				00CEDC4D1C4608A60029C7E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		008CD9BA1C46041C00CD1DC5 /* Build configuration list for PBXNativeTarget "OpenIBooks" */ = {
+		00CEDC4E1C4608A60029C7E4 /* Build configuration list for PBXNativeTarget "OpenAppleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				008CD9BB1C46041C00CD1DC5 /* Debug */,
-				008CD9BC1C46041C00CD1DC5 /* Release */,
+				00CEDC4F1C4608A60029C7E4 /* Debug */,
+				00CEDC501C4608A60029C7E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 008CD9A01C46041C00CD1DC5 /* Project object */;
+	rootObject = 00CEDC321C4608A60029C7E4 /* Project object */;
 }
