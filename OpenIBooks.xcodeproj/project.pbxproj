@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008CD9AC1C46041C00CD1DC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CD9AB1C46041C00CD1DC5 /* AppDelegate.swift */; };
+		008CD9AE1C46041C00CD1DC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CD9AD1C46041C00CD1DC5 /* ViewController.swift */; };
+		008CD9B11C46041C00CD1DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008CD9AF1C46041C00CD1DC5 /* Main.storyboard */; };
+		008CD9B31C46041C00CD1DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008CD9B21C46041C00CD1DC5 /* Assets.xcassets */; };
+		008CD9B61C46041C00CD1DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008CD9B41C46041C00CD1DC5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008CD9A81C46041C00CD1DC5 /* OpenIBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenIBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		008CD9AB1C46041C00CD1DC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		008CD9AD1C46041C00CD1DC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		008CD9B01C46041C00CD1DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		008CD9B21C46041C00CD1DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		008CD9B51C46041C00CD1DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		008CD9B71C46041C00CD1DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		008CD9A51C46041C00CD1DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008CD99F1C46041C00CD1DC5 = {
+			isa = PBXGroup;
+			children = (
+				008CD9AA1C46041C00CD1DC5 /* OpenIBooks */,
+				008CD9A91C46041C00CD1DC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		008CD9A91C46041C00CD1DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				008CD9A81C46041C00CD1DC5 /* OpenIBooks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		008CD9AA1C46041C00CD1DC5 /* OpenIBooks */ = {
+			isa = PBXGroup;
+			children = (
+				008CD9AB1C46041C00CD1DC5 /* AppDelegate.swift */,
+				008CD9AD1C46041C00CD1DC5 /* ViewController.swift */,
+				008CD9AF1C46041C00CD1DC5 /* Main.storyboard */,
+				008CD9B21C46041C00CD1DC5 /* Assets.xcassets */,
+				008CD9B41C46041C00CD1DC5 /* LaunchScreen.storyboard */,
+				008CD9B71C46041C00CD1DC5 /* Info.plist */,
+			);
+			path = OpenIBooks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		008CD9A71C46041C00CD1DC5 /* OpenIBooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008CD9BA1C46041C00CD1DC5 /* Build configuration list for PBXNativeTarget "OpenIBooks" */;
+			buildPhases = (
+				008CD9A41C46041C00CD1DC5 /* Sources */,
+				008CD9A51C46041C00CD1DC5 /* Frameworks */,
+				008CD9A61C46041C00CD1DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenIBooks;
+			productName = OpenIBooks;
+			productReference = 008CD9A81C46041C00CD1DC5 /* OpenIBooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		008CD9A01C46041C00CD1DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Robin;
+				TargetAttributes = {
+					008CD9A71C46041C00CD1DC5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 008CD9A31C46041C00CD1DC5 /* Build configuration list for PBXProject "OpenIBooks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 008CD99F1C46041C00CD1DC5;
+			productRefGroup = 008CD9A91C46041C00CD1DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				008CD9A71C46041C00CD1DC5 /* OpenIBooks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		008CD9A61C46041C00CD1DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008CD9B61C46041C00CD1DC5 /* LaunchScreen.storyboard in Resources */,
+				008CD9B31C46041C00CD1DC5 /* Assets.xcassets in Resources */,
+				008CD9B11C46041C00CD1DC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		008CD9A41C46041C00CD1DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008CD9AE1C46041C00CD1DC5 /* ViewController.swift in Sources */,
+				008CD9AC1C46041C00CD1DC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		008CD9AF1C46041C00CD1DC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				008CD9B01C46041C00CD1DC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		008CD9B41C46041C00CD1DC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				008CD9B51C46041C00CD1DC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		008CD9B81C46041C00CD1DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		008CD9B91C46041C00CD1DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		008CD9BB1C46041C00CD1DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenIBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrocker.OpenIBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		008CD9BC1C46041C00CD1DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenIBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrocker.OpenIBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		008CD9A31C46041C00CD1DC5 /* Build configuration list for PBXProject "OpenIBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008CD9B81C46041C00CD1DC5 /* Debug */,
+				008CD9B91C46041C00CD1DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008CD9BA1C46041C00CD1DC5 /* Build configuration list for PBXNativeTarget "OpenIBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008CD9BB1C46041C00CD1DC5 /* Debug */,
+				008CD9BC1C46041C00CD1DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 008CD9A01C46041C00CD1DC5 /* Project object */;
+}
